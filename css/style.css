@@ -42,9 +42,7 @@ p {
     max-width: 1100px;
     margin: 0 auto;
     position: relative;
-    /* Ensure pseudo-elements are positioned relative to this container */
     z-index: 2;
-    /* Adjust stacking order if necessary */
 }
 
 .logo-header {
@@ -72,20 +70,17 @@ p {
     display: none;
     position: absolute;
     top: 80px;
-    /* Adjust this if needed */
     left: 0;
     background-color: hsla(0, 0%, 100%, 1);
     width: 100%;
     z-index: 10;
 }
-
-/* Show navbar links when active */
 .navbar-links.active {
     display: block;
     background: hsla(271, 9%, 17%, 1);
     color: white;
     height: 100vh;
-    background-image: url(../images/bg-pattern-mobile-nav.svg);
+    background-image: url(../img/bg-pattern-mobile-nav.svg);
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: bottom;
@@ -445,8 +440,6 @@ p {
         color: hsla(271, 9%, 17%, 1);
         background-color: white;
     }
-
-    /* We are different */
 
     .different-container {
         max-width: 90%;
